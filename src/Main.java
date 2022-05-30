@@ -8,14 +8,17 @@ public class Main {
         Fibonacci fibonacchi = new Fibonacci();
         ReverseString revStr = new ReverseString();
         RemoveVowels removeVowels = new RemoveVowels();
+        CountStringLength strLength = new CountStringLength();
+
 
 
         // execution of new instances
-        fizzBuzz.fizzBuzz();
+        //fizzBuzz.fizzBuzz();
+        System.out.println(strLength.countStringLength("hello"));
 
-        for(int i = 0; i <= 10; i++) {
-            System.out.println(fibonacchi.fibonacchi(i));
-        }
+//        for(int i = 0; i <= 10; i++) {
+//            System.out.println(fibonacchi.fibonachi(i));
+//        }
 
         revStr.reverseString("hello");
         System.out.println(removeVowels.removeVowels("hello world"));

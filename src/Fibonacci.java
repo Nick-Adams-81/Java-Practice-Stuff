@@ -2,7 +2,7 @@
 
 public class Fibonacci {
 
-    public int fibonacchi(int z) {
+    public int fibonachi(int z) {
         int a = 0;
         int b = 1;
 
