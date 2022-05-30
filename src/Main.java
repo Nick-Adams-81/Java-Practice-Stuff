@@ -7,6 +7,7 @@ public class Main {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Fibonachi fibonachi = new Fibonachi();
         ReverseString revStr = new ReverseString();
+        RemoveVowels removeVowels = new RemoveVowels();
 
 
         // execution of new instances
@@ -16,8 +17,8 @@ public class Main {
             System.out.println(fibonachi.fibonachi(i));
         }
 
-
         revStr.reverseString("hello");
+        System.out.println(removeVowels.removeVowels("hello world"));
 
 
     }
