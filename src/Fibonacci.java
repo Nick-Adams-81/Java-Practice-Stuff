@@ -1,8 +1,8 @@
 
 
-public class Fibonachi {
+public class Fibonacci {
 
-    public int fibonachi(int z) {
+    public int fibonacchi(int z) {
         int a = 0;
         int b = 1;
 

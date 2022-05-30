@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // new instances of methods
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Fibonachi fibonachi = new Fibonachi();
+        Fibonacci fibonacchi = new Fibonacci();
         ReverseString revStr = new ReverseString();
         RemoveVowels removeVowels = new RemoveVowels();
 
@@ -14,7 +14,7 @@ public class Main {
         fizzBuzz.fizzBuzz();
 
         for(int i = 0; i <= 10; i++) {
-            System.out.println(fibonachi.fibonachi(i));
+            System.out.println(fibonacchi.fibonacchi(i));
         }
 
         revStr.reverseString("hello");
