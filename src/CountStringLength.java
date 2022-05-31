@@ -7,4 +7,8 @@ public class CountStringLength {
         }
         return count;
     }
+
+    public int simpleCountStringLength(String str) {
+        return str.length();
+    }
 }

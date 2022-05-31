@@ -16,6 +16,7 @@ public class Main {
         // execution of new instances
         //fizzBuzz.fizzBuzz();
         System.out.println(strLength.countStringLength("hello"));
+        System.out.println(strLength.simpleCountStringLength("hello again"));
 
         for(int i = 0; i <= 10; i++) {
             System.out.println(fibonacchi.fibonachi(i));
