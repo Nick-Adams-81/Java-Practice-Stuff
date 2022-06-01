@@ -14,7 +14,7 @@ public class Main {
 
 
         // execution of new instances
-        //fizzBuzz.fizzBuzz();
+        fizzBuzz.fizzBuzz(25);
         System.out.println(strLength.countStringLength("hello"));
         System.out.println(strLength.simpleCountStringLength("hello again"));
 
