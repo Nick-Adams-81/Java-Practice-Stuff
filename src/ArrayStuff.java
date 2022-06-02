@@ -53,6 +53,31 @@ public class ArrayStuff {
            array[arraySize] = value;
            arraySize++;
        }
+
     }
+
+    public String linearSearch(int value) {
+       boolean valueInArray = false;
+       String indexWithValue = "";
+        System.out.println("The value was found in the following: ");
+        for(int i = 0; i < arraySize; i++) {
+            if(array[i] == value) {
+                valueInArray = true;
+                System.out.print(i + " ");
+                indexWithValue += i + " ";
+            }
+
+        }
+        if(!valueInArray) {
+            indexWithValue = "none";
+
+            System.out.print(indexWithValue);
+        }
+
+        System.out.println();
+
+        return indexWithValue;
+    }
+
 
 }

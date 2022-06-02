@@ -35,6 +35,7 @@ public class Main {
         arrStuff.printArray();
         arrStuff.insertValue(97);
         arrStuff.printArray();
+        arrStuff.linearSearch(14);
 
     }
 }
