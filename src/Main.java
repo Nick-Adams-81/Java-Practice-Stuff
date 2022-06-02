@@ -10,6 +10,8 @@ public class Main {
         RemoveVowels removeVowels = new RemoveVowels();
         CountStringLength strLength = new CountStringLength();
         CountVowels countVowels = new CountVowels();
+        ArrayStuff arrStuff = new ArrayStuff();
+
 
 
 
@@ -25,6 +27,8 @@ public class Main {
         revStr.reverseString("hello");
         System.out.println(removeVowels.removeVowels("hello world"));
         System.out.println(countVowels.countVowels("hello world"));
+        arrStuff.printArray();
+        System.out.println(arrStuff.getValueAtIndex(3));
 
 
     }
