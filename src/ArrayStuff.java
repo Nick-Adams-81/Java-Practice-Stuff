@@ -48,4 +48,11 @@ public class ArrayStuff {
        }
     }
 
+    public void insertValue(int value) {
+       if(arraySize < 50) {
+           array[arraySize] = value;
+           arraySize++;
+       }
+    }
+
 }

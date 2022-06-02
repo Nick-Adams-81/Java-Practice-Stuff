@@ -33,7 +33,8 @@ public class Main {
         System.out.println(arrStuff.doesArrayContainValue(18));
         arrStuff.deleteIndex(2);
         arrStuff.printArray();
-
+        arrStuff.insertValue(97);
+        arrStuff.printArray();
 
     }
 }
