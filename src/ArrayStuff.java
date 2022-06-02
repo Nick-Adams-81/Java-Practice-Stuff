@@ -38,4 +38,14 @@ public class ArrayStuff {
        return valueInArray;
     }
 
+    public void deleteIndex(int index) {
+       if(index < arraySize) {
+           for(int i = index; i < (arraySize -1); i++) {
+               array[i] = array[i + 1];
+           }
+
+           arraySize--;
+       }
+    }
+
 }

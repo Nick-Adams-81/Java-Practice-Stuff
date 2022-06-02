@@ -31,6 +31,8 @@ public class Main {
         arrStuff.printArray();
         System.out.println(arrStuff.getValueAtIndex(3));
         System.out.println(arrStuff.doesArrayContainValue(18));
+        arrStuff.deleteIndex(2);
+        arrStuff.printArray();
 
 
     }
