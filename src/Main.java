@@ -27,6 +27,7 @@ public class Main {
         revStr.reverseString("hello");
         System.out.println(removeVowels.removeVowels("hello world"));
         System.out.println(countVowels.countVowels("hello world"));
+        arrStuff.generateRandomArray();
         arrStuff.printArray();
         System.out.println(arrStuff.getValueAtIndex(3));
 

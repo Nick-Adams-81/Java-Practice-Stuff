@@ -4,7 +4,7 @@ public class ArrayStuff {
 
     private int arraySize = 10;
 
-   public void randomArraySize() {
+   public void generateRandomArray() {
 
        for(int i = 0; i < arraySize; i++) {
            array[i] = (int)(Math.random()*10) +10;
