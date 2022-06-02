@@ -30,6 +30,7 @@ public class Main {
         arrStuff.generateRandomArray();
         arrStuff.printArray();
         System.out.println(arrStuff.getValueAtIndex(3));
+        System.out.println(arrStuff.doesArrayContainValue(18));
 
 
     }

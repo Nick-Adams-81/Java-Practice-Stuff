@@ -5,7 +5,6 @@ public class ArrayStuff {
     private int arraySize = 10;
 
    public void generateRandomArray() {
-
        for(int i = 0; i < arraySize; i++) {
            array[i] = (int)(Math.random()*10) +10;
        }
@@ -25,6 +24,18 @@ public class ArrayStuff {
     public int getValueAtIndex(int index) {
        if(index < arraySize) return array[index];
        return 0;
+    }
+
+    public boolean doesArrayContainValue(int searchValue) {
+       boolean valueInArray = false;
+
+       for(int i = 0; i < arraySize; i++) {
+           if(array[i] == searchValue) {
+               valueInArray = true;
+           }
+       }
+
+       return valueInArray;
     }
 
 }
