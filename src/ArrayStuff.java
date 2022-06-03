@@ -1,4 +1,4 @@
-
+// array methods
 public class ArrayStuff {
     public int array[] = new int[50];
 
