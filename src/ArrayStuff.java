@@ -1,5 +1,7 @@
 // array methods
 public class ArrayStuff {
+
+    // initializing an array for testing
     public int array[] = new int[50];
 
     private int arraySize = 10;
