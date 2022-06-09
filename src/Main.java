@@ -20,6 +20,7 @@ public class Main {
         System.out.println(strLength.countStringLength("hello"));
         System.out.println(strLength.simpleCountStringLength("hello again"));
 
+        // for loop for fibonacchi sequence
         for(int i = 0; i <= 10; i++) {
             System.out.println(fibonacchi.fibonachi(i));
         }
